@@ -17,15 +17,7 @@ An open, community-curated catalog of art-direction Skills for AI image creation
 
 ---
 
-## Featured collection · 本期收录
-
-### [Gathered Scenes Zine · 拾景纸刊](https://github.com/Zeejay0/gathered-scenes-zine-skill)
-
-By [Zeejay0](https://github.com/Zeejay0) · 2 Skills · photo-to-paper art direction
-
-Turn an everyday photograph into a page worth keeping. One Skill preserves the real scene inside a tactile collage; the other distills the photograph into an entirely new illustration.
-
-把日常照片变成值得留下的一页：一种保留真实影像，用撕纸、插画与留白重新组织画面；另一种只提取照片里的情绪和关系，重新创作成独立插画。
+## Gallery · 画廊
 
 <table>
   <tr>
