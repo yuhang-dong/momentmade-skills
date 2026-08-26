@@ -218,6 +218,22 @@ When adding or changing a Skill:
 
 Content-only additions or art-direction refinements should rely on shared schema and asset validation. Do not create one-off tests, snapshots, or application code for individual Skills.
 
+## Git and Review Workflow
+
+Never commit or push changes directly to `main`, including documentation, catalog metadata, licenses, and image-only updates.
+
+For every change:
+
+1. Start from the current `main` branch and create a focused working branch. Agent-created branches must use the `codex/` prefix.
+2. Make and validate the change on that branch.
+3. Commit and push only the working branch.
+4. Open a pull request targeting `main` and summarize the content, provenance, license decision, and validation performed.
+5. Do not merge the pull request unless the repository owner explicitly asks for it to be merged after review.
+
+For README, gallery-layout, and preview-media changes, include a link to the pushed branch's repository page in the pull request so the rendered GitHub README can be reviewed before merging. Add screenshots when a branch preview alone does not make the visual effect clear.
+
+If pull-request tooling is unavailable, leave the change on its pushed branch and report the branch and compare URL. Do not fall back to pushing `main`.
+
 ## Curation Standard
 
 A published Skill should add a distinct, repeatable visual system rather than a minor wording variation. Reject or request revision when a contribution is primarily:
