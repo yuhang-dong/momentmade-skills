@@ -24,8 +24,8 @@ Keep this repository useful as durable public knowledge rather than turning it i
 
 This repository may contain:
 
-1. **Hosted Skills** whose full instructions and declared assets may legally be redistributed here.
-2. **External catalog entries** that point to Skills hosted by their original authors when redistribution is unavailable, unclear, or restricted.
+1. **Hosted Skills** mirrored in full when an explicit permissive license or written permission allows redistribution.
+2. **External catalog entries** that point to Skills hosted by their original authors when the license is restrictive, missing, unclear, or otherwise unsuitable for mirroring. An external entry may include locally stored preview media only when that media has its own clear redistribution permission.
 3. Repository documentation, schemas, validation, and catalog-generation tooling directly needed to maintain the collection.
 
 This repository must not contain:
@@ -37,6 +37,18 @@ This repository must not contain:
 - Model credentials, API keys, cookies, access tokens, personal data, or unpublished prompts.
 - Community uploads that have not been reviewed for provenance, license, safety, and basic quality.
 
+## Mirroring Decision
+
+Classify every Skill before adding files:
+
+1. **Explicitly permissive license or permission** — Mirror the complete Skill into `skills/`. Examples include MIT, Apache-2.0, BSD, CC0, CC BY, or a clear written grant that allows redistribution. Preserve every required notice and record the upstream source.
+2. **Restrictive license** — Keep the Skill in its original repository and create an external entry in `catalog/`. This includes personal-use-only, non-commercial, commercial-permission-required, paid, or otherwise restricted licenses. As a catalog policy, do not mirror the complete Skill even when its license permits limited conditional sharing.
+3. **Missing or unclear license** — Treat the work as fully reserved. Create a metadata-and-link-only external entry. Do not mirror the Skill or its images without separate explicit permission.
+
+"No license" never means "no restrictions." Public visibility, GitHub forking, attribution, or technical download access does not grant this repository permission to reproduce or redistribute a Skill.
+
+Judge Skill instructions and media separately. A Skill may remain external while one or more generated preview images are stored locally under a separate license or display permission.
+
 ## Hosted Skills
 
 Store a hosted Skill under an immutable lowercase kebab-case ID:
@@ -45,6 +57,7 @@ Store a hosted Skill under an immutable lowercase kebab-case ID:
 skills/
 └── <skill-id>/
     ├── SKILL.md
+    ├── LICENSE             # required when governed separately from the root license
     ├── cover.webp
     └── examples/
         ├── example-01.webp
@@ -55,6 +68,7 @@ Rules:
 
 - The directory name is the stable Skill ID. Do not duplicate or casually rename it.
 - `SKILL.md` is required.
+- Preserve the upstream license text in the Skill directory when mirroring third-party content or whenever its license differs from the repository's root license.
 - `cover.webp` is required for a published Skill.
 - `examples/` is optional and may contain zero to four representative WebP outputs.
 - Asset paths must be relative to the Skill directory. Do not use remote images as hosted assets.
@@ -113,11 +127,12 @@ Do not write instructions that attempt to call tools, download remote dependenci
 
 ## External Catalog Entries
 
-If a Skill cannot legally or clearly be redistributed, do not copy its `SKILL.md`, examples, cover, or paid contents. Create a metadata-only entry instead:
+When a Skill has a restrictive, missing, or unclear license, do not copy its `SKILL.md`, configuration, bundled assets, or paid contents. Create an external catalog entry that links to the canonical source. The entry may use locally stored preview images only when those specific images may legally be redistributed for catalog display.
 
 ```text
-catalog/
-└── <skill-id>.yaml
+catalog/<skill-id>.yaml
+assets/<skill-id>/cover.webp      # optional; only with clear media permission
+licenses/<skill-id>.txt           # required for locally copied media under separate terms
 ```
 
 Use this shape:
@@ -129,12 +144,24 @@ description: A factual summary written by the catalog contributor.
 author:
   name: Original Author
   url: https://example.com/author
-source_url: https://example.com/original-skill
+skill:
+  type: external
+  url: https://example.com/original-skill
+  mirrored: false
 license:
   name: Personal use free; commercial license required
   url: https://example.com/license
-  redistribution: false
-  commercial_use: paid
+  redistribution: conditional
+  commercial_use: permission-required
+media:
+  cover:
+    type: local
+    path: assets/example-external-skill/cover.webp
+    source_url: https://example.com/original-preview
+    modified: true
+    license:
+      name: Example Media License
+      url: https://example.com/media-license
 tags:
   - collage
   - editorial
@@ -145,20 +172,24 @@ External-entry rules:
 - Link to the canonical author-controlled source, not a repost or scraped mirror.
 - Write an original factual description; do not copy substantial marketing or instruction text.
 - Record the license as published by the author. Do not reinterpret a restricted license as MIT.
-- `commercial_use` should be `allowed`, `paid`, `prohibited`, or `unknown` based on explicit source information.
-- If redistribution or commercial terms are unclear, record `unknown` and keep only metadata and a link.
-- Do not download or mirror example images unless their separate license permits it.
+- `commercial_use` should be `allowed`, `permission-required`, `prohibited`, or `unknown` based on explicit source information.
+- If Skill redistribution or commercial terms are unclear, record `unknown` and keep the Skill itself external.
+- A local cover or example is allowed only when the image's own license or an explicit display grant permits copying it into this catalog.
+- Record the image creator, canonical source, license, and material modifications such as resizing, cropping, or format conversion. Preserve the full media license locally when its terms require it.
+- Locally copied third-party media remains under its own license and is not covered by the repository's root MIT License.
+- If image permission is absent or unclear, omit local media and use a catalog-owned neutral placeholder rather than copying or hotlinking the image.
 - Attribution is required catalog metadata, but attribution alone is not permission to copy.
 
 ## Licensing and Rights
 
 - A root repository license covers only material that its copyright holders have actually authorized under that license.
 - Never remove or replace a third party's copyright notice or license.
-- Do not add third-party content to `skills/` merely because another repository containing it has an MIT license. Confirm that the license applies to the specific Skill text and every copied asset.
+- Mirror third-party Skill contents only under an explicit permissive license or written redistribution permission. Confirm that the license applies to the specific Skill text and every copied asset.
 - Treat Skill instructions, cover images, example outputs, fonts, photographs, and other assets as separate works that may have different licenses.
 - Contributors must have the right to publish every hosted file and grant the declared license.
-- A Skill described as personal-use-only, non-commercial, commercial-license-required, paid, private, or all-rights-reserved belongs in `catalog/` as metadata only unless the rights holder gives explicit redistribution permission.
-- No license or missing license means no permission to mirror.
+- A Skill described as personal-use-only, non-commercial, commercial-license-required, paid, private, or all-rights-reserved remains external and must not be mirrored into `skills/`.
+- A missing license means no permission to mirror. It does not mean public domain, unrestricted use, or implied permission.
+- An external Skill may still have local catalog media when the media itself has a separate permissive license or explicit display permission.
 - When adapting an existing permissively licensed Skill, retain its required notices, identify the upstream source, and state material changes.
 - Do not imply that inclusion in this catalog grants users commercial rights beyond the original license.
 
