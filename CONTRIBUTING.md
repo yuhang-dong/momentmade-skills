@@ -12,8 +12,8 @@ Thank you for helping more people create something beautiful from their own phot
 
 Choose the correct kind of contribution before copying any content:
 
-- Submit a **hosted Skill** only when you created it or have clear permission to redistribute the complete instructions and every included asset.
-- Submit an **external catalog entry** when a Skill is personal-use-only, paid, non-commercial, non-redistributable, unlicensed, or otherwise unclear. External entries contain metadata and a canonical link, not copied Skill contents. A local preview may be included only when that specific image has clear redistribution permission, full provenance, and its own license notice.
+- Submit a **hosted Skill** only when it is an original contribution first published here, or when it comes from a non-GitHub source without a durable repository and you have clear permission to redistribute the complete instructions and every included asset.
+- Submit an **external catalog entry** for every Skill that already has a GitHub repository, regardless of license. Also use an external entry when a Skill is personal-use-only, paid, non-commercial, non-redistributable, unlicensed, or otherwise unclear. External entries contain metadata and a canonical link, not copied Skill contents. A local preview may be included only when that specific image has clear redistribution permission, full provenance, and its own license notice.
 
 Attribution is always required, but attribution alone is not permission to copy.
 
@@ -80,7 +80,7 @@ Prefer observable visual qualities over relying mainly on the name of a living a
 
 ### External catalog entry
 
-When redistribution is not clearly permitted, add only:
+When the Skill already has a GitHub repository or redistribution is not clearly permitted, add only:
 
 ```text
 catalog/<skill-id>.yaml
@@ -148,8 +148,8 @@ By submitting hosted material, you confirm that you have the right to publish it
 
 在复制任何内容前，请先判断应使用哪种收录方式：
 
-- 只有在你是原创作者，或者明确拥有完整说明和全部素材的再分发权时，才能提交为**完整托管 Skill**。
-- 如果一个 Skill 仅限个人使用、需要付费商用、禁止商用、禁止再分发、没有许可证或权利不明确，请提交为**外部索引条目**。外部条目只保存元数据和正式来源链接，不复制 Skill 内容。只有当某张预览图本身具有明确的再分发许可、完整来源和独立许可证说明时，才可以保存本地副本。
+- 只有当 Skill 是首次发布在这里的原创投稿，或来自 GitHub 之外、没有稳定源码仓库且你明确拥有完整说明和全部素材的再分发权时，才能提交为**完整托管 Skill**。
+- 只要 Skill 已经有 GitHub 仓库，无论许可证是什么，都必须提交为**外部索引条目**。仅限个人使用、需要付费商用、禁止商用、禁止再分发、没有许可证或权利不明确的 Skill 也使用外部条目。外部条目只保存元数据和正式来源链接，不复制 Skill 内容。只有当某张预览图本身具有明确的再分发许可、完整来源和独立许可证说明时，才可以保存本地副本。
 
 注明作者始终是必要的，但仅仅注明作者并不等于获得复制许可。
 
@@ -193,7 +193,7 @@ Skill 应该定义一个连贯、可重复的视觉体系，而不是一组宽�
 
 ### 外部索引条目
 
-如果没有明确的 Skill 再分发许可，只创建 `catalog/<skill-id>.yaml`，记录名称、原创简介、作者、正式来源、许可证和标签。必须链接到作者控制的正式来源，不要复制大段说明、宣传文案或付费内容。只有在具体图片允许再分发时，才可以复制封面或示例，并记录创作者、正式来源、许可证及所有实质修改。
+如果 Skill 已经有 GitHub 仓库，或者没有明确的 Skill 再分发许可，只创建 `catalog/<skill-id>.yaml`，记录名称、原创简介、作者、正式来源、许可证和标签。必须链接到作者控制的正式来源，不要复制大段说明、宣传文案或付费内容。只有在具体图片允许再分发时，才可以复制封面或示例，并记录创作者、正式来源、许可证及所有实质修改。
 
 ### 图片要求
 

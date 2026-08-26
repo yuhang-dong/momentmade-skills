@@ -38,14 +38,24 @@ An open, community-curated catalog of art-direction Skills for AI image creation
       <p><a href="https://github.com/Zeejay0/gathered-scenes-zine-skill/tree/main/skills/scene-distillation-zine-v1-3"><strong>View the original Skill →</strong></a><br><sub><a href="licenses/gathered-scenes-zine-personal-non-commercial-v1.0.txt">Personal, non-commercial license</a> · © Zeejay0</sub></p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Dlcccc71913/skill-make-photo-stamp-archive">
+        <img src="assets/make-photo-stamp-archive/cover.webp" alt="A golden chapel photograph beside a small matching hand-pressed architectural seal.">
+      </a>
+      <h3>照片图章档案 · Photo Stamp Archive</h3>
+      <p><strong>Keep the photograph. Distill its mark.</strong><br>保留照片本身，再把主体浓缩成一枚带有磨损油墨质感的专属图章。</p>
+      <p><a href="https://github.com/Dlcccc71913/skill-make-photo-stamp-archive"><strong>View the original Skill →</strong></a><br><sub><a href="licenses/make-photo-stamp-archive-mit.txt">MIT License</a> · © Dlcccc71913</sub></p>
+    </td>
+  </tr>
 </table>
 
 ## How this catalog works
 
 Momentmade Skills collects distinct, reusable visual systems—not a pile of generic prompts. Every entry records its original author, canonical source, license, and representative outputs.
 
-- **Hosted Skills** are included in full only when a permissive license or explicit permission allows redistribution.
-- **External Skills** stay in the author’s repository when their license is restrictive or unclear. This catalog stores factual metadata, canonical links, and only those preview images that may be shared here.
+- **Hosted Skills** are limited to original submissions or permissively reusable material found outside GitHub without a durable source repository.
+- **External Skills** include every Skill that already has a GitHub repository, regardless of license, plus material whose rights are restrictive or unclear. This catalog stores factual metadata, canonical links, and only those preview images that may be shared here.
 - **For agents:** read the structured entries in [`catalog/`](catalog/) to find the canonical Skill URL, usage terms, media provenance, and local preview paths.
 
 Image generation happens in your own compatible AI environment. This repository is only a public catalog: it does not run a generation service, sell model access, or belong to another product or project.
@@ -54,8 +64,8 @@ Image generation happens in your own compatible AI environment. This repository 
 
 Momentmade Skills 把审美整理成清晰、可复用的创作方向：怎样理解一张照片或一个想法，怎样处理构图、色彩、材质与文字，以及怎样避开让结果变得普通的细节。
 
-- **完整托管 Skill**：只有在宽松许可证或明确授权允许再分发时，才会完整收录在本仓库。
-- **外部 Skill**：当许可证有限制或权利不明确时，Skill 留在原作者仓库；这里记录作者、正式来源、使用条款，以及明确允许展示的预览作品。
+- **完整托管 Skill**：仅用于首次发布在这里的原创投稿，或来自 GitHub 之外、没有稳定源码仓库且明确允许再分发的内容。
+- **外部 Skill**：只要已经有 GitHub 仓库，无论许可证多宽松，都只链接原仓库；许可证有限制或权利不明确的内容也采用外部条目。这里记录作者、正式来源、使用条款，以及明确允许展示的预览作品。
 - **给 Agent**：读取 [`catalog/`](catalog/) 中的结构化条目，即可找到原始 Skill 地址、许可证、媒体来源与本地预览路径。
 
 生图发生在你自己的兼容 AI 环境中。这个仓库只是一个独立的公开目录，不提供生图服务、不出售模型访问，也不属于任何其他产品或项目。

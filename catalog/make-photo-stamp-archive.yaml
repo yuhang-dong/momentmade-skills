@@ -1,0 +1,65 @@
+kind: external
+name: Make Photo Stamp Archive
+description: >-
+  Pairs a faithfully preserved photograph with a quiet warm-paper panel and a
+  compact, subject-specific seal rendered with worn ink, halftone texture, and
+  restrained archival typography.
+author:
+  name: Dlcccc71913
+  url: https://github.com/Dlcccc71913
+skill:
+  type: external
+  url: https://github.com/Dlcccc71913/skill-make-photo-stamp-archive
+  repository_url: https://github.com/Dlcccc71913/skill-make-photo-stamp-archive
+  mirrored: false
+license:
+  name: MIT License
+  url: https://github.com/Dlcccc71913/skill-make-photo-stamp-archive/blob/main/LICENSE
+  local_copy: licenses/make-photo-stamp-archive-mit.txt
+  redistribution: allowed
+  commercial_use: allowed
+media:
+  cover:
+    type: local
+    path: assets/make-photo-stamp-archive/cover.webp
+    alt: A golden chapel photograph beside a small matching hand-pressed architectural seal.
+    creator: Dlcccc71913
+    source_url: https://github.com/user-attachments/assets/5fd44aba-e5f1-4f24-9271-89e850f171c5
+    modified: true
+    modifications:
+      - resized
+      - converted-to-webp
+    license:
+      name: MIT License
+      url: https://github.com/Dlcccc71913/skill-make-photo-stamp-archive/blob/main/LICENSE
+  examples:
+    - type: local
+      path: assets/make-photo-stamp-archive/stained-light.webp
+      alt: A stained-glass photograph beside a small arched seal derived from its colors and lines.
+      creator: Dlcccc71913
+      source_url: https://github.com/user-attachments/assets/27fb0c46-d67f-4404-bbaf-e73e27f8202c
+      modified: true
+      modifications:
+        - resized
+        - converted-to-webp
+      license:
+        name: MIT License
+        url: https://github.com/Dlcccc71913/skill-make-photo-stamp-archive/blob/main/LICENSE
+    - type: local
+      path: assets/make-photo-stamp-archive/still-buddha.webp
+      alt: A monochrome Buddha photograph beside a circular dry-ink seal of the same scene.
+      creator: Dlcccc71913
+      source_url: https://github.com/user-attachments/assets/9515aac2-448b-4426-ad34-70b88edc590a
+      modified: true
+      modifications:
+        - resized
+        - converted-to-webp
+      license:
+        name: MIT License
+        url: https://github.com/Dlcccc71913/skill-make-photo-stamp-archive/blob/main/LICENSE
+tags:
+  - archival
+  - collage
+  - photography
+  - stamp
+  - paper
