@@ -35,7 +35,7 @@ Turn an everyday photograph into a page worth keeping. One Skill preserves the r
       </a>
       <h3>实景拼贴 · Gathered Scenes</h3>
       <p><strong>Keep the photograph. Recompose the memory.</strong><br>保留照片里的真实场景，再用纸张、色彩、插画和留白重新编排记忆。</p>
-      <p><a href="https://github.com/Zeejay0/gathered-scenes-zine-skill/tree/main/skills/scenes-gathered-zine-v1-3"><strong>View the original Skill →</strong></a></p>
+      <p><a href="https://github.com/Zeejay0/gathered-scenes-zine-skill/tree/main/skills/scenes-gathered-zine-v1-3"><strong>View the original Skill →</strong></a><br><sub><a href="licenses/gathered-scenes-zine-personal-non-commercial-v1.0.txt">Personal, non-commercial license</a> · © Zeejay0</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Zeejay0/gathered-scenes-zine-skill/tree/main/skills/scene-distillation-zine-v1-3">
@@ -43,14 +43,10 @@ Turn an everyday photograph into a page worth keeping. One Skill preserves the r
       </a>
       <h3>影像蒸馏 · Scene Distillation</h3>
       <p><strong>Keep the feeling. Reimagine the image.</strong><br>不保留原照片本身，只留下主体、动作和情绪，再创作成一张全新的纸上作品。</p>
-      <p><a href="https://github.com/Zeejay0/gathered-scenes-zine-skill/tree/main/skills/scene-distillation-zine-v1-3"><strong>View the original Skill →</strong></a></p>
+      <p><a href="https://github.com/Zeejay0/gathered-scenes-zine-skill/tree/main/skills/scene-distillation-zine-v1-3"><strong>View the original Skill →</strong></a><br><sub><a href="licenses/gathered-scenes-zine-personal-non-commercial-v1.0.txt">Personal, non-commercial license</a> · © Zeejay0</sub></p>
     </td>
   </tr>
 </table>
-
-> **License note / 许可证说明**<br>
-> These two Skills and the preview artworks remain under Zeejay0’s [Personal Non-Commercial License](licenses/gathered-scenes-zine-personal-non-commercial-v1.0.txt). They are for personal, non-commercial use; commercial or paid use requires the author’s prior written permission. The Skill files are not mirrored here—follow the links above to use the originals.<br>
-> 这两个 Skill 与展示作品仍遵循 Zeejay0 的[个人非商业许可证](licenses/gathered-scenes-zine-personal-non-commercial-v1.0.txt)。仅限个人、非商业使用；商业或付费使用需要事先获得作者书面许可。本目录没有镜像 Skill 文件，请通过上方链接前往原仓库使用。
 
 ## How this catalog works
 
