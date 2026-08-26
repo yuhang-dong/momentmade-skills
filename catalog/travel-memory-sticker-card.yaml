@@ -1,0 +1,25 @@
+kind: external
+name: "旅行记忆贴纸卡 · Travel Memory Sticker Card"
+description: >-
+  Reinterprets a travel photograph as a horizontal keepsake card with a broad
+  simplified illustration, a column of six scene-derived paper stickers, and
+  three understated English keywords.
+author:
+  name: carolinaaafy
+  url: https://github.com/carolinaaafy
+skill:
+  type: external
+  url: https://github.com/carolinaaafy/travel-memory-sticker-card
+  repository_url: https://github.com/carolinaaafy/travel-memory-sticker-card
+  mirrored: false
+license:
+  name: Travel Memory Sticker Card Personal-Use License
+  url: https://github.com/carolinaaafy/travel-memory-sticker-card/blob/main/LICENSE
+  redistribution: prohibited
+  commercial_use: permission-required
+tags:
+  - collage
+  - illustration
+  - paper
+  - photography
+  - travel
