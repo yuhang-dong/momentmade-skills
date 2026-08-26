@@ -24,8 +24,8 @@ Keep this repository useful as durable public knowledge rather than turning it i
 
 This repository may contain:
 
-1. **Hosted Skills** mirrored in full when an explicit permissive license or written permission allows redistribution.
-2. **External catalog entries** that point to Skills hosted by their original authors when the license is restrictive, missing, unclear, or otherwise unsuitable for mirroring. An external entry may include locally stored preview media only when that media has its own clear redistribution permission.
+1. **Hosted Skills** first published in this repository, or copied from a non-GitHub source that has no durable source repository, when an explicit permissive license or written permission allows redistribution.
+2. **External catalog entries** for every Skill that already has a canonical GitHub repository, regardless of how permissive its license is, and for other Skills whose license is restrictive, missing, unclear, or otherwise unsuitable for mirroring. An external entry may include locally stored preview media only when that media has its own clear redistribution permission.
 3. Repository documentation, schemas, validation, and catalog-generation tooling directly needed to maintain the collection.
 
 This repository must not contain:
@@ -41,9 +41,10 @@ This repository must not contain:
 
 Classify every Skill before adding files:
 
-1. **Explicitly permissive license or permission** — Mirror the complete Skill into `skills/`. Examples include MIT, Apache-2.0, BSD, CC0, CC BY, or a clear written grant that allows redistribution. Preserve every required notice and record the upstream source.
-2. **Restrictive license** — Keep the Skill in its original repository and create an external entry in `catalog/`. This includes personal-use-only, non-commercial, commercial-permission-required, paid, or otherwise restricted licenses. As a catalog policy, do not mirror the complete Skill even when its license permits limited conditional sharing.
-3. **Missing or unclear license** — Treat the work as fully reserved. Create a metadata-and-link-only external entry. Do not mirror the Skill or its images without separate explicit permission.
+1. **Canonical GitHub repository exists** — Always keep the Skill in its original repository and create an external entry in `catalog/`, even when the repository uses MIT, Apache-2.0, or another permissive license. Do not mirror the Skill contents. Local preview media is still allowed when its license permits redistribution.
+2. **Original submission or non-GitHub source without a durable repository** — Host the complete Skill in `skills/` only when an explicit permissive license or written permission allows redistribution. Preserve every required notice and record any upstream source.
+3. **Restrictive license** — Keep the Skill at its original source and create an external entry in `catalog/`. This includes personal-use-only, non-commercial, commercial-permission-required, paid, or otherwise restricted licenses.
+4. **Missing or unclear license** — Treat the work as fully reserved. Create a metadata-and-link-only external entry. Do not mirror the Skill or its images without separate explicit permission.
 
 "No license" never means "no restrictions." Public visibility, GitHub forking, attribution, or technical download access does not grant this repository permission to reproduce or redistribute a Skill.
 
@@ -51,7 +52,7 @@ Judge Skill instructions and media separately. A Skill may remain external while
 
 ## Hosted Skills
 
-Store a hosted Skill under an immutable lowercase kebab-case ID:
+Use hosted entries only for original submissions first published here or eligible non-GitHub material without a durable source repository. Store a hosted Skill under an immutable lowercase kebab-case ID:
 
 ```text
 skills/
@@ -184,13 +185,13 @@ External-entry rules:
 
 - A root repository license covers only material that its copyright holders have actually authorized under that license.
 - Never remove or replace a third party's copyright notice or license.
-- Mirror third-party Skill contents only under an explicit permissive license or written redistribution permission. Confirm that the license applies to the specific Skill text and every copied asset.
+- Do not mirror Skill contents from a canonical GitHub repository, even under a permissive license. For eligible non-GitHub material, mirror third-party Skill contents only under an explicit permissive license or written redistribution permission, and confirm that it applies to the specific Skill text and every copied asset.
 - Treat Skill instructions, cover images, example outputs, fonts, photographs, and other assets as separate works that may have different licenses.
 - Contributors must have the right to publish every hosted file and grant the declared license.
 - A Skill described as personal-use-only, non-commercial, commercial-license-required, paid, private, or all-rights-reserved remains external and must not be mirrored into `skills/`.
 - A missing license means no permission to mirror. It does not mean public domain, unrestricted use, or implied permission.
 - An external Skill may still have local catalog media when the media itself has a separate permissive license or explicit display permission.
-- When adapting an existing permissively licensed Skill, retain its required notices, identify the upstream source, and state material changes.
+- When adapting an eligible non-GitHub permissively licensed Skill, retain its required notices, identify the upstream source, and state material changes.
 - Do not imply that inclusion in this catalog grants users commercial rights beyond the original license.
 
 ## Example Outputs and Provenance
