@@ -1,0 +1,53 @@
+kind: external
+name: "实景拼贴 · Gathered Scenes Zine v1.3"
+description: >-
+  Keeps the supplied photograph as a truthful visual anchor, then extends it
+  into a spacious tactile composition of torn paper, restrained typography,
+  simplified illustration, and one structural accent color.
+author:
+  name: Zeejay0
+  url: https://github.com/Zeejay0
+skill:
+  type: external
+  url: https://github.com/Zeejay0/gathered-scenes-zine-skill/tree/main/skills/scenes-gathered-zine-v1-3
+  repository_url: https://github.com/Zeejay0/gathered-scenes-zine-skill
+  mirrored: false
+license:
+  name: Gathered Scenes Zine Personal Non-Commercial License 1.0
+  url: https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/main/LICENSE
+  local_copy: licenses/gathered-scenes-zine-personal-non-commercial-v1.0.txt
+  redistribution: conditional
+  commercial_use: permission-required
+media:
+  cover:
+    type: local
+    path: assets/scenes-gathered-zine-v1-3/cover.webp
+    alt: A blue-and-cream paper collage of a city and church tower beneath an open sky.
+    creator: Zeejay0
+    source_url: https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/093e401e138e50dbd087556f8f3b9cf2fbbd8962/examples/real-scene-collage/01-where-stone-meets-sky/result.jpg
+    modified: true
+    modifications:
+      - resized
+      - converted-to-webp
+    license:
+      name: Gathered Scenes Zine Personal Non-Commercial License 1.0
+      url: https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/main/LICENSE
+  examples:
+    - type: local
+      path: assets/scenes-gathered-zine-v1-3/winter-crossing.webp
+      alt: A winter lake photograph set into a pale blue illustrated paper landscape.
+      creator: Zeejay0
+      source_url: https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/093e401e138e50dbd087556f8f3b9cf2fbbd8962/examples/real-scene-collage/02-winter-crossing/result.jpg
+      modified: true
+      modifications:
+        - resized
+        - converted-to-webp
+      license:
+        name: Gathered Scenes Zine Personal Non-Commercial License 1.0
+        url: https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/main/LICENSE
+tags:
+  - collage
+  - editorial
+  - photography
+  - paper
+  - zine

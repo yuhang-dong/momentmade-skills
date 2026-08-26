@@ -1,0 +1,53 @@
+kind: external
+name: "影像蒸馏 · Scene Distillation Zine v1.3"
+description: >-
+  Reads a photograph for its subject, gesture, and emotional residue, then
+  reimagines those ideas as an original minimal paper poster without retaining
+  the source photograph as a visual layer.
+author:
+  name: Zeejay0
+  url: https://github.com/Zeejay0
+skill:
+  type: external
+  url: https://github.com/Zeejay0/gathered-scenes-zine-skill/tree/main/skills/scene-distillation-zine-v1-3
+  repository_url: https://github.com/Zeejay0/gathered-scenes-zine-skill
+  mirrored: false
+license:
+  name: Gathered Scenes Zine Personal Non-Commercial License 1.0
+  url: https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/main/LICENSE
+  local_copy: licenses/gathered-scenes-zine-personal-non-commercial-v1.0.txt
+  redistribution: conditional
+  commercial_use: permission-required
+media:
+  cover:
+    type: local
+    path: assets/scene-distillation-zine-v1-3/cover.webp
+    alt: A sparse paper-textured illustration of a seated figure reaching toward a branch.
+    creator: Zeejay0
+    source_url: https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/093e401e138e50dbd087556f8f3b9cf2fbbd8962/examples/image-distillation/01-time-waves-back/result.jpg
+    modified: true
+    modifications:
+      - resized
+      - converted-to-webp
+    license:
+      name: Gathered Scenes Zine Personal Non-Commercial License 1.0
+      url: https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/main/LICENSE
+  examples:
+    - type: local
+      path: assets/scene-distillation-zine-v1-3/snow-falls-lightly.webp
+      alt: A blue paper-cut figure sitting in a quiet abstract snow scene.
+      creator: Zeejay0
+      source_url: https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/093e401e138e50dbd087556f8f3b9cf2fbbd8962/examples/image-distillation/02-snow-falls-lightly/result.jpg
+      modified: true
+      modifications:
+        - resized
+        - converted-to-webp
+      license:
+        name: Gathered Scenes Zine Personal Non-Commercial License 1.0
+        url: https://github.com/Zeejay0/gathered-scenes-zine-skill/blob/main/LICENSE
+tags:
+  - abstraction
+  - editorial
+  - illustration
+  - paper
+  - zine

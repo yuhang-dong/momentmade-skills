@@ -1,75 +1,85 @@
+<div align="center">
+
 # Momentmade Skills
 
-> You don’t have to be a designer. If you know what you love, you can turn your photos, memories, and ideas into art of your own.
->
-> 你不需要会设计。只要你知道自己喜欢什么，就可以把照片、记忆和想法变成属于自己的艺术。
+**You don’t have to be a designer to create something beautiful from your own photos and ideas.**
 
-[English](#english) · [中文](#中文)
+**你不需要会设计。只要你知道自己喜欢什么，就可以把照片、记忆和想法变成属于自己的艺术。**
 
----
+<br>
 
-## English
+An open, community-curated catalog of art-direction Skills for AI image creation.<br>
+一个开放、由社区共同整理的 AI 图像艺术 Skill 目录。
 
-Momentmade Skills is an open, community-built collection of art directions for AI image creation. Each Skill turns visual taste into clear, reusable instructions: how to interpret a photo or idea, compose the image, choose color and material, and avoid the details that make a result feel generic.
+[Explore the catalog](catalog/) · [How to contribute](CONTRIBUTING.md) · [中文说明](#about-this-catalog--关于这个目录)
 
-You bring something that matters to you—a photo you took, a memory you want to keep, or a small idea. A Skill helps your own AI tool turn it into something beautifully yours.
-
-### How to use a Skill
-
-1. Browse the hosted Skills in [`skills/`](skills/) or discover externally hosted Skills in [`catalog/`](catalog/).
-2. Read the Skill's author, source, and license information.
-3. Give the `SKILL.md` instructions to Codex or another compatible AI image tool.
-4. Add your own photo, memory, or idea and create from there.
-
-Image generation happens in your own AI environment. This repository does not run a generation service, consume your model allowance, or sell model access.
-
-### Two kinds of entries
-
-- **Hosted Skills** include the complete, redistributable `SKILL.md`, a cover, and up to four representative outputs.
-- **External catalog entries** contain only factual metadata and a link to the original author when the Skill cannot or should not be redistributed here.
-
-Always follow the license of the specific Skill and its assets. Being listed here does not grant rights beyond the original license.
-
-### Contribute
-
-We welcome original Skills, improvements to existing Skills, representative outputs, and carefully sourced catalog entries. Start with [CONTRIBUTING.md](CONTRIBUTING.md) before copying or submitting any third-party material.
-
-The collection is curated for distinct, repeatable visual systems—not for the largest possible number of prompts.
-
-### License
-
-Repository code and original documentation are available under the [MIT License](LICENSE) unless a file states otherwise. Individual Skills, covers, examples, and external sources may have their own licenses; check each entry before using or redistributing it.
+</div>
 
 ---
 
-## 中文
+## Featured collection · 本期收录
 
-Momentmade Skills 是一个开放、由社区共同建设的 AI 图像艺术方向合集。每个 Skill 都把审美转化为清晰、可复用的创作说明：怎样理解一张照片或一个想法，怎样组织构图、色彩和材质，以及怎样避开那些让结果变得普通的细节。
+### [Gathered Scenes Zine · 拾景纸刊](https://github.com/Zeejay0/gathered-scenes-zine-skill)
 
-你只需要带来对自己重要的东西——一张亲自拍摄的照片、一段想留下的记忆，或者一个小小的想法。Skill 会帮助你在自己的 AI 工具中，把它变成真正属于你的作品。
+By [Zeejay0](https://github.com/Zeejay0) · 2 Skills · photo-to-paper art direction
 
-### 如何使用 Skill
+Turn an everyday photograph into a page worth keeping. One Skill preserves the real scene inside a tactile collage; the other distills the photograph into an entirely new illustration.
 
-1. 在 [`skills/`](skills/) 中浏览完整托管的 Skill，或在 [`catalog/`](catalog/) 中发现由原作者托管的外部 Skill。
-2. 阅读该 Skill 的作者、来源和许可证信息。
-3. 将 `SKILL.md` 交给 Codex 或其他兼容的 AI 图像工具。
-4. 加入自己的照片、记忆或想法，然后开始创作。
+把日常照片变成值得留下的一页：一种保留真实影像，用撕纸、插画与留白重新组织画面；另一种只提取照片里的情绪和关系，重新创作成独立插画。
 
-图片生成发生在你自己的 AI 环境中。本仓库不提供生图服务，不消耗你的模型额度，也不出售模型访问权限。
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Zeejay0/gathered-scenes-zine-skill/tree/main/skills/scenes-gathered-zine-v1-3">
+        <img src="assets/scenes-gathered-zine-v1-3/cover.webp" alt="A blue-and-cream paper collage of a city and church tower beneath an open sky.">
+      </a>
+      <h3>实景拼贴 · Gathered Scenes</h3>
+      <p><strong>Keep the photograph. Recompose the memory.</strong><br>保留照片里的真实场景，再用纸张、色彩、插画和留白重新编排记忆。</p>
+      <p><a href="https://github.com/Zeejay0/gathered-scenes-zine-skill/tree/main/skills/scenes-gathered-zine-v1-3"><strong>View the original Skill →</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Zeejay0/gathered-scenes-zine-skill/tree/main/skills/scene-distillation-zine-v1-3">
+        <img src="assets/scene-distillation-zine-v1-3/cover.webp" alt="A sparse paper-textured illustration of a seated figure reaching toward a branch.">
+      </a>
+      <h3>影像蒸馏 · Scene Distillation</h3>
+      <p><strong>Keep the feeling. Reimagine the image.</strong><br>不保留原照片本身，只留下主体、动作和情绪，再创作成一张全新的纸上作品。</p>
+      <p><a href="https://github.com/Zeejay0/gathered-scenes-zine-skill/tree/main/skills/scene-distillation-zine-v1-3"><strong>View the original Skill →</strong></a></p>
+    </td>
+  </tr>
+</table>
 
-### 两种收录方式
+> **License note / 许可证说明**<br>
+> These two Skills and the preview artworks remain under Zeejay0’s [Personal Non-Commercial License](licenses/gathered-scenes-zine-personal-non-commercial-v1.0.txt). They are for personal, non-commercial use; commercial or paid use requires the author’s prior written permission. The Skill files are not mirrored here—follow the links above to use the originals.<br>
+> 这两个 Skill 与展示作品仍遵循 Zeejay0 的[个人非商业许可证](licenses/gathered-scenes-zine-personal-non-commercial-v1.0.txt)。仅限个人、非商业使用；商业或付费使用需要事先获得作者书面许可。本目录没有镜像 Skill 文件，请通过上方链接前往原仓库使用。
 
-- **完整托管 Skill**：包含允许再分发的完整 `SKILL.md`、封面和最多四张代表性输出。
-- **外部索引条目**：当 Skill 不适合或不允许在这里再分发时，只记录事实性信息并链接到原作者的正式来源。
+## How this catalog works
 
-请始终遵守具体 Skill 和素材各自的许可证。被本仓库收录，不代表获得了原许可证之外的权利。
+Momentmade Skills collects distinct, reusable visual systems—not a pile of generic prompts. Every entry records its original author, canonical source, license, and representative outputs.
 
-### 参与贡献
+- **Hosted Skills** are included in full only when a permissive license or explicit permission allows redistribution.
+- **External Skills** stay in the author’s repository when their license is restrictive or unclear. This catalog stores factual metadata, canonical links, and only those preview images that may be shared here.
+- **For agents:** read the structured entries in [`catalog/`](catalog/) to find the canonical Skill URL, usage terms, media provenance, and local preview paths.
 
-我们欢迎原创 Skill、对已有 Skill 的改进、具有代表性的输出，以及来源清楚的外部索引条目。在复制或提交任何第三方内容前，请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
+Image generation happens in your own compatible AI environment. This repository is only a public catalog: it does not run a generation service, sell model access, or belong to another product or project.
 
-这个合集追求的是独特、稳定、可重复的视觉体系，而不是尽可能多地堆积 Prompt。
+## About this catalog · 关于这个目录
 
-### 许可证
+Momentmade Skills 把审美整理成清晰、可复用的创作方向：怎样理解一张照片或一个想法，怎样处理构图、色彩、材质与文字，以及怎样避开让结果变得普通的细节。
 
-除非文件另有声明，仓库代码和原创文档使用 [MIT License](LICENSE)。单独的 Skill、封面、示例图片和外部来源可能使用不同许可证；使用或再分发前请检查具体条目。
+- **完整托管 Skill**：只有在宽松许可证或明确授权允许再分发时，才会完整收录在本仓库。
+- **外部 Skill**：当许可证有限制或权利不明确时，Skill 留在原作者仓库；这里记录作者、正式来源、使用条款，以及明确允许展示的预览作品。
+- **给 Agent**：读取 [`catalog/`](catalog/) 中的结构化条目，即可找到原始 Skill 地址、许可证、媒体来源与本地预览路径。
+
+生图发生在你自己的兼容 AI 环境中。这个仓库只是一个独立的公开目录，不提供生图服务、不出售模型访问，也不属于任何其他产品或项目。
+
+## Contribute · 一起共创
+
+Original Skills, carefully sourced external entries, representative outputs, and metadata corrections are welcome. Before copying third-party material, read [CONTRIBUTING.md](CONTRIBUTING.md) and verify the rights for the Skill text and every image separately.
+
+欢迎提交原创 Skill、来源清楚的外部条目、代表性输出，以及作者、来源和许可证信息的修正。在复制第三方内容前，请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，并分别确认 Skill 文本和每张图片的权利。
+
+## License · 许可证
+
+Repository code and original documentation are available under the [MIT License](LICENSE) unless stated otherwise. Third-party Skills and media keep their own licenses; the root MIT license does not replace or expand those terms.
+
+除非另有声明，仓库代码和原创文档使用 [MIT License](LICENSE)。第三方 Skill 与媒体继续遵循各自的许可证；根目录的 MIT 许可证不会替代或扩大这些条款。
