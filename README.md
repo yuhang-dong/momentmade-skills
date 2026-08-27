@@ -53,7 +53,7 @@ An open, community-curated catalog of art-direction Skills for AI image creation
       </a>
       <h3>旅行记忆贴纸卡 · Travel Memory Sticker Card</h3>
       <p><strong>Keep the landmark. Collect its fragments.</strong><br>把旅途照片重绘成安静的纸上风景，再从其中拾取六枚值得收藏的记忆贴纸。</p>
-      <p><a href="https://github.com/carolinaaafy/travel-memory-sticker-card"><strong>View the original Skill →</strong></a><br><sub><a href="https://github.com/carolinaaafy/travel-memory-sticker-card/blob/main/LICENSE">Personal-use Skill license</a> · © carolinaaafy · <a href="LICENSE">Preview: MIT</a></sub></p>
+      <p><a href="https://github.com/carolinaaafy/travel-memory-sticker-card"><strong>View the original Skill →</strong></a><br><sub><a href="https://github.com/carolinaaafy/travel-memory-sticker-card/blob/main/LICENSE">Personal-use Skill license</a> · © carolinaaafy</sub></p>
     </td>
   </tr>
 </table>
