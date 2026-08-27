@@ -1,0 +1,39 @@
+kind: external
+name: "旅行记忆贴纸卡 · Travel Memory Sticker Card"
+description: >-
+  Reinterprets a travel photograph as a horizontal keepsake card with a broad
+  simplified illustration, a column of six scene-derived paper stickers, and
+  three understated English keywords.
+author:
+  name: carolinaaafy
+  url: https://github.com/carolinaaafy
+skill:
+  type: external
+  url: https://github.com/carolinaaafy/travel-memory-sticker-card
+  repository_url: https://github.com/carolinaaafy/travel-memory-sticker-card
+  mirrored: false
+license:
+  name: Travel Memory Sticker Card Personal-Use License
+  url: https://github.com/carolinaaafy/travel-memory-sticker-card/blob/main/LICENSE
+  redistribution: prohibited
+  commercial_use: permission-required
+media:
+  cover:
+    type: local
+    path: assets/travel-memory-sticker-card/cover.webp
+    alt: A paper-textured memory card of a lakeside church, layered blue mountains, and six travel stickers.
+    creator: Momentmade Skills contributors
+    source_url: https://github.com/yuhang-dong/momentmade-skills/blob/main/assets/travel-memory-sticker-card/cover.webp
+    modified: true
+    modifications:
+      - ai-generated-from-contributor-provided-photo
+      - converted-to-webp
+    license:
+      name: MIT License
+      url: https://github.com/yuhang-dong/momentmade-skills/blob/main/LICENSE
+tags:
+  - collage
+  - illustration
+  - paper
+  - photography
+  - travel

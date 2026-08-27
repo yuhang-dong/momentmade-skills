@@ -47,6 +47,14 @@ An open, community-curated catalog of art-direction Skills for AI image creation
       <p><strong>Keep the photograph. Distill its mark.</strong><br>保留照片本身，再把主体浓缩成一枚带有磨损油墨质感的专属图章。</p>
       <p><a href="https://github.com/Dlcccc71913/skill-make-photo-stamp-archive"><strong>View the original Skill →</strong></a><br><sub><a href="licenses/make-photo-stamp-archive-mit.txt">MIT License</a> · © Dlcccc71913</sub></p>
     </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/carolinaaafy/travel-memory-sticker-card">
+        <img src="assets/travel-memory-sticker-card/cover.webp" alt="A paper-textured memory card of a lakeside church, layered blue mountains, and six travel stickers.">
+      </a>
+      <h3>旅行记忆贴纸卡 · Travel Memory Sticker Card</h3>
+      <p><strong>Keep the landmark. Collect its fragments.</strong><br>把旅途照片重绘成安静的纸上风景，再从其中拾取六枚值得收藏的记忆贴纸。</p>
+      <p><a href="https://github.com/carolinaaafy/travel-memory-sticker-card"><strong>View the original Skill →</strong></a><br><sub><a href="https://github.com/carolinaaafy/travel-memory-sticker-card/blob/main/LICENSE">Personal-use Skill license</a> · © carolinaaafy</sub></p>
+    </td>
   </tr>
 </table>
 
