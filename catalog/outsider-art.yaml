@@ -1,0 +1,24 @@
+kind: external
+name: Outsider Art v1.2
+description: >-
+  Turns a photograph or text theme into a flat, map-like risograph poster using
+  broad muted color zones, dense hand-drawn textures, tiny faceless figures in
+  everyday scenes, and a single saturated accent with a structural role.
+author:
+  name: fihade
+  url: https://github.com/fihaaade
+skill:
+  type: external
+  url: https://github.com/fihaaade/skills/tree/main/outsider-art
+  repository_url: https://github.com/fihaaade/skills
+  mirrored: false
+license:
+  name: No license published
+  redistribution: unknown
+  commercial_use: unknown
+tags:
+  - folk-art
+  - illustration
+  - poster
+  - risograph
+  - texture
