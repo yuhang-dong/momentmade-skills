@@ -1,0 +1,38 @@
+kind: external
+name: Outsider Art v1.2
+description: >-
+  Turns a photograph or text theme into a flat, map-like risograph poster using
+  broad muted color zones, dense hand-drawn textures, tiny faceless figures in
+  everyday scenes, and a single saturated accent with a structural role.
+author:
+  name: fihade
+  url: https://github.com/fihaaade
+skill:
+  type: external
+  url: https://github.com/fihaaade/skills/tree/main/outsider-art
+  repository_url: https://github.com/fihaaade/skills
+  mirrored: false
+license:
+  name: No license published
+  redistribution: unknown
+  commercial_use: unknown
+media:
+  cover:
+    type: local
+    path: assets/outsider-art/cover.webp
+    alt: A flat textured poster of Milan's triumphal arch, park paths, tiny figures, and one vermilion cyclist.
+    creator: yuhang-dong
+    source_url: https://github.com/yuhang-dong/momentmade-skills/blob/main/assets/outsider-art/cover.webp
+    modified: true
+    modifications:
+      - ai-generated-from-contributor-provided-photo
+      - converted-to-webp
+    license:
+      name: MIT License
+      url: https://github.com/yuhang-dong/momentmade-skills/blob/main/LICENSE
+tags:
+  - folk-art
+  - illustration
+  - poster
+  - risograph
+  - texture
