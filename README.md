@@ -56,6 +56,17 @@ An open, community-curated catalog of art-direction Skills for AI image creation
       <p><a href="https://github.com/carolinaaafy/travel-memory-sticker-card"><strong>View the original Skill →</strong></a><br><sub><a href="https://github.com/carolinaaafy/travel-memory-sticker-card/blob/main/LICENSE">Personal-use Skill license</a> · © carolinaaafy</sub></p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/fihaaade/skills/tree/main/outsider-art">
+        <img src="assets/outsider-art/cover.webp" alt="A flat textured poster of Milan's triumphal arch, park paths, tiny figures, and one vermilion cyclist.">
+      </a>
+      <h3>局外艺术 · Outsider Art</h3>
+      <p><strong>Flatten the place. Let repetition make it quiet.</strong><br>把建筑、路径与日常人物平铺成地图般的色块，再用密纹和唯一一枚亮色重组场所记忆。</p>
+      <p><a href="https://github.com/fihaaade/skills/tree/main/outsider-art"><strong>View the original Skill →</strong></a><br><sub>Preview: <a href="LICENSE">MIT License</a> · Skill license not published · © fihade</sub></p>
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
 </table>
 
 ## How this catalog works
