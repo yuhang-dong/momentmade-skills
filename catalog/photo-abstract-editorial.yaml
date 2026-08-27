@@ -1,0 +1,39 @@
+kind: external
+name: Photo Abstract Editorial
+description: >-
+  Preserves an uploaded photograph as the principal section of a vertical
+  editorial composition, then translates its spatial and color relationships
+  into a sparse ivory abstract panel with a short poetic English title.
+author:
+  name: ZzzLc0405
+  url: https://github.com/ZzzLc0405
+skill:
+  type: external
+  url: https://github.com/ZzzLc0405/photo-abstract-editorial
+  repository_url: https://github.com/ZzzLc0405/photo-abstract-editorial
+  mirrored: false
+license:
+  name: Photo Abstract Editorial Copyright & Commercial Use Terms
+  url: https://github.com/ZzzLc0405/photo-abstract-editorial/blob/main/LICENSE.md
+  redistribution: conditional
+  commercial_use: permission-required
+media:
+  cover:
+    type: local
+    path: assets/photo-abstract-editorial/cover.webp
+    alt: A lake and church photograph above an ivory panel of abstract mountain bands, a spire, and an English title.
+    creator: yuhang-dong
+    source_url: https://github.com/yuhang-dong/momentmade-skills/blob/main/assets/photo-abstract-editorial/cover.webp
+    modified: true
+    modifications:
+      - ai-generated-editorial-composite-from-contributor-provided-photo
+      - converted-to-webp
+    license:
+      name: MIT License
+      url: https://github.com/yuhang-dong/momentmade-skills/blob/main/LICENSE
+tags:
+  - abstraction
+  - editorial
+  - photography
+  - poster
+  - typography

@@ -63,9 +63,16 @@ An open, community-curated catalog of art-direction Skills for AI image creation
       </a>
       <h3>局外艺术 · Outsider Art</h3>
       <p><strong>Flatten the place. Let repetition make it quiet.</strong><br>把建筑、路径与日常人物平铺成地图般的色块，再用密纹和唯一一枚亮色重组场所记忆。</p>
-      <p><a href="https://github.com/fihaaade/skills/tree/main/outsider-art"><strong>View the original Skill →</strong></a><br><sub>Preview: <a href="LICENSE">MIT License</a> · Skill license not published · © fihade</sub></p>
+      <p><a href="https://github.com/fihaaade/skills/tree/main/outsider-art"><strong>View the original Skill →</strong></a><br><sub>Skill license not published · © fihade</sub></p>
     </td>
-    <td width="50%" valign="top"></td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ZzzLc0405/photo-abstract-editorial">
+        <img src="assets/photo-abstract-editorial/cover.webp" alt="A lake and church photograph above an ivory panel of abstract mountain bands, a spire, and an English title.">
+      </a>
+      <h3>摄影抽象编辑 · Photo Abstract Editorial</h3>
+      <p><strong>Keep the photograph. Distill its relationships.</strong><br>忠实保留原照片，再把其中的空间、色彩与节奏提炼成克制的象牙色抽象记忆面板。</p>
+      <p><a href="https://github.com/ZzzLc0405/photo-abstract-editorial"><strong>View the original Skill →</strong></a><br><sub><a href="https://github.com/ZzzLc0405/photo-abstract-editorial/blob/main/LICENSE.md">Personal/non-commercial Skill terms</a> · © ZzzLc0405</sub></p>
+    </td>
   </tr>
 </table>
 
