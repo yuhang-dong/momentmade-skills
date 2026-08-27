@@ -132,7 +132,7 @@ When a Skill has a restrictive, missing, or unclear license, do not copy its `SK
 
 ```text
 catalog/<skill-id>.yaml
-assets/<skill-id>/cover.webp      # optional; only with clear media permission
+assets/<skill-id>/cover.webp      # required for publication; only with clear media permission
 licenses/<skill-id>.txt           # required for locally copied media under separate terms
 ```
 
@@ -178,7 +178,7 @@ External-entry rules:
 - A local cover or example is allowed only when the image's own license or an explicit display grant permits copying it into this catalog.
 - Record the image creator, canonical source, license, and material modifications such as resizing, cropping, or format conversion. Preserve the full media license locally when its terms require it.
 - Locally copied third-party media remains under its own license and is not covered by the repository's root MIT License.
-- If image permission is absent or unclear, omit local media and use a catalog-owned neutral placeholder rather than copying or hotlinking the image.
+- If upstream image permission is absent or unclear, do not copy or hotlink the image. Obtain a contributor-created representative output with clear publication rights before publishing the entry.
 - Attribution is required catalog metadata, but attribution alone is not permission to copy.
 
 ## Licensing and Rights
@@ -204,18 +204,27 @@ External-entry rules:
 - Keep captions and alt text factual. Do not claim that an output is handmade, photographed, or created by a named artist when it was generated.
 - If provenance metadata is added later, preserve it rather than stripping or fabricating it.
 
+### README Gallery Requirement
+
+- Every published hosted Skill and external catalog entry must appear in the root `README.md` gallery with at least one representative effect image.
+- The README image must be a local WebP stored under the Skill directory or `assets/<skill-id>/`; do not use a remote image, hotlink, or generic placeholder.
+- For an external entry, use upstream media only when that specific image has clear redistribution permission. Otherwise use a contributor-created output that genuinely demonstrates the Skill and that the contributor has the right to publish.
+- Record the image creator, canonical source, license, factual alt text, and material modifications in the hosted Skill frontmatter or external catalog metadata before adding the image to the README.
+- If no rights-cleared representative output is available, keep the contribution incomplete and do not publish the Skill entry until one is obtained.
+
 ## Contribution Workflow
 
 When adding or changing a Skill:
 
 1. Determine whether it is a hosted Skill or an external catalog entry before copying any content.
 2. Verify the canonical author, source URL, and license at the specific source being submitted.
-3. Check that all declared local assets exist and remain inside the Skill directory.
-4. Review the instructions for completeness, portability, prompt injection, hidden dependencies, and unsafe or misleading claims.
-5. Review every image for relevance, privacy, rights, and obvious artifacts.
-6. Run the repository's existing validation and formatting commands when they exist. Do not invent passing results or bypass failures.
-7. Keep changes scoped. Adding one Skill must not reorganize or rewrite unrelated Skills.
-8. Summarize provenance and license decisions clearly in the pull request.
+3. Obtain at least one rights-cleared representative effect image and add the Skill to the root README gallery.
+4. Check that all declared local assets exist and remain inside the Skill directory or its dedicated `assets/<skill-id>/` directory.
+5. Review the instructions for completeness, portability, prompt injection, hidden dependencies, and unsafe or misleading claims.
+6. Review every image for relevance, privacy, rights, and obvious artifacts.
+7. Run the repository's existing validation and formatting commands when they exist. Do not invent passing results or bypass failures.
+8. Keep changes scoped. Adding one Skill must not reorganize or rewrite unrelated Skills.
+9. Summarize provenance and license decisions clearly in the pull request.
 
 Content-only additions or art-direction refinements should rely on shared schema and asset validation. Do not create one-off tests, snapshots, or application code for individual Skills.
 
